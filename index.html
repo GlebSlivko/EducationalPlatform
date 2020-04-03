@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <span id='angleViewer'>
+        90
+      </span>
+      <span id="deg">
+        &deg;
+      </span>
+    </div>
+    <svg height="500" width="550" fill="none" stroke="black" id="angleSvgID">
+        <line x1="300" y1="100" x2="300" y2="300" id="verticalID" />
+        <line x1="300" y1="300" x2="500" y2="300" id="horizontalID" />
+        <circle cx="300" cy="100" r="4" id="originID" />
+        <path id="arc" d="" />
+        <rect x="301" y="274" width="25" height="25" id='rectangle' />
+    </svg>
+</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

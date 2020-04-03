@@ -1,0 +1,52 @@
+.container{
+    display: block;
+ 
+    background-color:rgba(0, 0, 255, 0.178);
+    border-color: black;
+    width:600px;
+    height: 350px;
+    border-style:solid; 
+    border-width:1px;    
+}
+
+#angleViewer { 
+    position:relative;
+    float:right;
+    margin-right:25px;
+    margin-top:14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#deg{
+    position: absolute;
+    left: 590px;
+    top: 20px;
+}
+
+#verticalID{
+    stroke:rgb(255,0,0);
+    stroke-width:2
+}
+
+#horizontalID{
+    stroke:rgb(255,0,0);
+    stroke-width:2;
+}
+
+#originID{
+    stroke:black;
+    stroke-width:0.8;
+    fill:red;
+    cursor: pointer;
+}
+
+#rectangle{
+    stroke:pink;
+    stroke-width:0.1;
+    fill:blue;
+    fill-opacity:0.1;
+    cursor: pointer;
+}
+
+ 
